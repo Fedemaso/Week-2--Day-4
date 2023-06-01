@@ -55,20 +55,20 @@ crazySum (4, 4)
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-// function crazyDiff(l1) {
 
-//     let diff = math.abs(l1 - 19);
-    
-//     if (l1 > 19) {
-//         diff *= 3; 
-//     }
-    
-// return diff
 
-// }
-// console.log(crazyDiff(10)); // Output: 9
-// console.log(crazyDiff(20)); // Output: 3
-// console.log(crazyDiff(25)); // Output: 18
+ function crazyDiff(l1) {
+
+     let diff = Math.abs(l1 - 19);
+    
+    if (l1 > 19) {
+         diff *= 3; 
+     }
+    
+ return diff
+
+ }
+ console.log(crazyDiff(1)); 
 
 
 
