@@ -159,9 +159,9 @@ check3and7(14)
 
 
 function reverseString(str) {
-    var strArray = str.split(""); 
-    var reversedArray = strArray.reverse();
-    var reversedString = reversedArray.join(""); 
+   let strArray = str.split(""); 
+    let reversedArray = strArray.reverse();
+    let reversedString = reversedArray.join(""); 
     return reversedString;
   }
 
