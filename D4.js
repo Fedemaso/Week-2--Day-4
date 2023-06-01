@@ -68,7 +68,7 @@ crazySum (4, 4)
  return diff
 
  }
- console.log(crazyDiff(1)); 
+ console.log(crazyDiff(18)); 
 
 
 
@@ -83,19 +83,19 @@ crazySum (4, 4)
 
 
 function boundary (n1) {
-    if (n1 >=20 && n1<= 100 || n1 === 400) {
-        console.log ("boundary è", true)
+    if ((n1 >=20 && n1<= 100) || n1 === 400) {
+        return true
     }
 
         else {
-            console.log ("boundary è", false)
+            return false
         }
 
-return boundary
+
     
 }
 
-boundary (3)
+console.log(boundary (400))
 
 
 
